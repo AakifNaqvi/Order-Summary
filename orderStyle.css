@@ -1,0 +1,125 @@
+body {
+  text-align: center;
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+p{
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+
+
+
+.can:hover{
+  color: black;
+}
+
+.can{
+  display: block;
+  width: 6.5rem;
+  margin: auto;
+  font-weight: 700;
+  font: bolder;
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+
+.box {
+  margin: auto;
+  margin-top: 5rem;
+  width: 25rem;
+  height: 38rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.hero {
+  width: 25rem;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.pack {
+  margin: 1rem auto;
+  width: 23rem;
+  height: 5rem;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 1rem;
+}
+
+.music {
+  margin-top: 1rem;
+  float: left;
+  margin-left: 1rem;
+}
+
+.centre {
+  margin-left: 0;
+  margin-top:  .5rem;
+  width: 10rem;
+  float: left;
+  line-height: 0.25;
+}
+
+.Left {
+  margin-top: 2rem;
+  margin-right: 2rem;
+  width: 4rem;
+  float: right;
+  color: hsl(245, 75%, 52%);
+}
+
+.Left:hover{
+  text-decoration: none;
+  color: #7c83fd;
+}
+
+.text {
+  width: 300px;
+  margin: auto;
+}
+
+.button {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  height: 0;
+  line-height: 0;
+  color: #ffffff;
+  font-family: "Red Hat Display", sans-serif;
+  width: 254px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 19px;
+  background-color: hsl(245, 75%, 52%);
+  -webkit-box-shadow: 0 4px 22px 8px #f4f6ff;
+  -moz-box-shadow: 0 4px 22px 8px #f4f6ff;
+  box-shadow: 0 4px 22px 8px #f4f6ff;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+/* hsl(223, 47%, 23%)
+ hsl(224, 23%, 55%)
+ hsl(225, 100%, 98%) */
+.button:hover {
+  background-color: #7c83fd;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
